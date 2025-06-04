@@ -11,18 +11,18 @@
     A deep learning-based system for detecting and classifying plant leaf diseases using image data. Built using Convolutional Neural Networks (CNN), this model helps in early and accurate identification of common plant diseases, supporting farmers and agricultural researchers.
   </p>
 
-  <h2>🚀 Features</h2>
+  <h2>Features</h2>
   <ul>
-    <li>✅ Detects and classifies multiple plant diseases from leaf images.</li>
-    <li>🧠 Built using Convolutional Neural Networks (CNN).</li>
-    <li>📈 Trained on a dataset of 600,000+ images.</li>
-    <li>🛠️ Implemented in TensorFlow/Keras.</li>
-    <li>🌱 Addresses real-world agricultural challenges.</li>
-    <li>📊 Includes training metrics and result visualizations.</li>
-    <li>🌐 Optionally deployable as a Streamlit web app.</li>
+    <li>Detects and classifies multiple plant diseases from leaf images.</li>
+    <li>Built using Convolutional Neural Networks (CNN).</li>
+    <li>Trained on a dataset of 600,000+ images.</li>
+    <li>Implemented in TensorFlow/Keras.</li>
+    <li>Addresses real-world agricultural challenges.</li>
+    <li>Includes training metrics and result visualizations.</li>
+    <li>Optionally deployable as a Streamlit web app.</li>
   </ul>
 
-  <h2>🧠 Model Architecture</h2>
+  <h2>Model Architecture</h2>
   <ul>
     <li>Input: RGB leaf images</li>
     <li>Layers: Conv2D, MaxPooling, Dropout</li>
@@ -30,23 +30,6 @@
     <li>Loss: Categorical Crossentropy</li>
     <li>Optimizer: Adam</li>
   </ul>
-
-  <h2>🗃️ Dataset</h2>
-  <p>
-    The dataset contains 600,000+ labeled images of diseased and healthy plant leaves, covering classes like:
-  </p>
-  <ul>
-    <li>Healthy</li>
-    <li>Powdery Mildew</li>
-    <li>Bacterial Spot</li>
-    <li>Leaf Curl</li>
-    <li>Rust</li>
-    <li>Mosaic Virus</li>
-  </ul>
-  <p>
-    📁 <a href="https://drive.google.com/file/d/your_model_id">Download Model Weights (.h5)</a><br>
-    🗂️ <a href="https://drive.google.com/file/d/your_dataset_id">Download Dataset (optional)</a>
-  </p>
 
   <h2>🔧 How to Run</h2>
   <ol>
@@ -69,14 +52,14 @@ pip install -r requirements.txt
     </li>
   </ol>
 
-  <h2>📊 Sample Results</h2>
+  <h2>Sample Results</h2>
   <table border="1" cellpadding="5">
     <tr><th>Input Image</th><th>Prediction</th><th>Confidence</th></tr>
     <tr><td>Leaf1.jpg</td><td>Powdery Mildew</td><td>97.3%</td></tr>
     <tr><td>Leaf2.jpg</td><td>Bacterial Spot</td><td>94.8%</td></tr>
   </table>
 
-  <h2>🧪 Technologies Used</h2>
+  <h2>Technologies Used</h2>
   <ul>
     <li>Python</li>
     <li>TensorFlow / Keras</li>
@@ -86,7 +69,7 @@ pip install -r requirements.txt
     <li>Streamlit</li>
   </ul>
 
-  <h2>👨‍🔬 What I Learned</h2>
+  <h2>What I Learned</h2>
   <ul>
     <li>Working with large-scale image datasets.</li>
     <li>Building and training CNNs.</li>
@@ -95,21 +78,21 @@ pip install -r requirements.txt
     <li>Deploying AI apps using Streamlit.</li>
   </ul>
 
-  <h2>💡 Future Improvements</h2>
+  <h2>Future Improvements</h2>
   <ul>
-    <li>📱 Mobile app with TensorFlow Lite</li>
-    <li>🌐 Live deployment on Hugging Face Spaces</li>
-    <li>🎯 Further fine-tuning with advanced techniques</li>
-    <li>🔍 Add model explainability (e.g., Grad-CAM)</li>
+    <li>Mobile app with TensorFlow Lite</li>
+    <li>Live deployment on Hugging Face Spaces</li>
+    <li>Further fine-tuning with advanced techniques</li>
+    <li>Add model explainability (e.g., Grad-CAM)</li>
   </ul>
 
-  <h2>🤝 Acknowledgements</h2>
+  <h2>Acknowledgements</h2>
   <p>
     Based on the <a href="https://www.kaggle.com/emmarex/plantdisease">PlantVillage dataset</a>.<br>
     Special thanks to Atria Institute of Technology for mentorship and resources.
   </p>
 
-  <h2>📬 Contact</h2>
+  <h2>Contact</h2>
   <p>
     Made with 💚 by <a href="https://github.com/Dhananjay4yu">Dhananjay Kumar</a><br>
     Feel free to connect, open issues, or contribute!
